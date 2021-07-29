@@ -3,6 +3,8 @@ a simple SLAM example demonstrating the usage of graph optimization and Lie alge
 
 compile: g++ -o loop_closing loop_closing.cpp
 
+pre-request: eigen v3.2.92
+
 usage: ./loop_closing
 
 output: file data.csv, with optimized points, see loop_closing.cpp for detail, too simple to explain...
